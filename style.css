@@ -18,7 +18,7 @@
     height: 100vh;
     background-color: black;
     width: 100%;
-    background-image: url('..//css/home\ bg.png' );
+    background-image: url('food3.png');
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -152,7 +152,7 @@ nav ul li a:hover {
     font-size: 85px;
     color: black;
     text-transform: capitalize;
-    background-image: url('..//css/about\ bg.jpg');
+    background-image: url('food4.jpg');
     text-align: center;
     text-decoration: underline;
     text-decoration: 5px underline goldenrod;
@@ -204,7 +204,7 @@ nav ul li a:hover {
 /* menu */
 
 .menuhead {
-    background-image: url('..//css/menu\ bg.jpg');
+    background-image: url('food6.jpg');
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -246,7 +246,7 @@ nav ul li a:hover {
     height: 250px;
     padding: 5px;
     border-radius: 10px;
-    background-image: url('..//css/burger.jpg');
+    background-image: url('food7.jpg');
     background-position: center;
     background-size: cover;
     text-align: right;
@@ -258,7 +258,7 @@ nav ul li a:hover {
     height: 250px;
     padding: 5px;
     border-radius: 10px;
-    background-image: url('..//css/bdayy\ cake.jpg');
+    background-image: url('food8.jpg');
     background-position: center;
     text-align: right;
     font-size: 30px;
@@ -271,7 +271,7 @@ nav ul li a:hover {
     height: 250px;
     padding: 5px;
     border-radius: 10px;
-    background-image: url('..//css/pizza.png');
+    background-image: url('food9.png');
     background-position: center;
     background-size: cover;
     text-align: right;
@@ -283,7 +283,7 @@ nav ul li a:hover {
     height: 250px;
     padding: 5px;
     border-radius: 10px;
-    background-image: url('..//css/drinks.jpg');
+    background-image: url('food10.jpg');
     background-position: center;
     background-size: cover;
     text-align: right;
@@ -374,7 +374,7 @@ p {
 
 /*special offer  */
 .specialoff {
-    background-image: url('..//css/special\ off\ bg.jpg');
+    background-image: url('food11.jpg');
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -390,7 +390,7 @@ p {
 .offer {
 
     height: 500px;
-    background-image: url('..//css/light.png');
+    background-image: url('food12.png');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -402,7 +402,7 @@ p {
 
 .card1 {
 
-    background-image: url('..//css/special\ offer\ 1.png');
+    background-image: url('food13.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -416,7 +416,7 @@ p {
 
 .card2 {
 
-    background-image: url('..//css/special\ offer\ 2.jpg');
+    background-image: url('food14.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -463,7 +463,7 @@ p {
 
 .gal {
     font-family: cursive;
-    background-image: url('..//css/tomato.jpg');
+    background-image: url('food15.jpg');
     background-position: bottom;
     background-size: cover;
     color: goldenrod;
@@ -511,7 +511,7 @@ p {
 }
 
 .imgcard-1 {
-    background-image: url('..//css/choco\ chip.jpg');
+    background-image: url('food16.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 8px;
@@ -535,7 +535,7 @@ p {
 }
 
 .imgcard-2 {
-    background-image: url('..//css/brownies.jpg');
+    background-image: url('food17.jpg');
     background-position: right;
     background-size: cover;
     margin-bottom: 5px;
@@ -563,7 +563,7 @@ p {
 }
 
 .imgcard-3 {
-    background-image: url('..//css/mini\ cakes.jpg');
+    background-image: url('food18.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -588,7 +588,7 @@ p {
 }
 
 .imgcard-4 {
-    background-image: url('..//css/chocolate\ cake.jpg');
+    background-image: url('food19.jpg');
     background-position: right;
     background-size: cover;
     margin-bottom: 5px;
@@ -614,7 +614,7 @@ p {
 }
 
 .imgcard-5 {
-    background-image: url('..//css/tomato.jpg');
+    background-image: url('food20.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -639,7 +639,7 @@ p {
 }
 
 .imgcard-6 {
-    background-image: url('..//css/chicago.jpg');
+    background-image: url('food21.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -664,7 +664,7 @@ p {
 }
 
 .imgcard-7 {
-    background-image: url('..//css/olives.jpg');
+    background-image: url('food22.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -690,7 +690,7 @@ p {
 }
 
 .imgcard-8 {
-    background-image: url('..//css/special\ off\ bg.jpg');
+    background-image: url('food23.jpg');
     background-position: right;
     background-size: cover;
     color: transparent;
@@ -715,7 +715,7 @@ p {
 }
 
 .imgcard-9 {
-    background-image: url('..//css/rose\ sharbat.jpg');
+    background-image: url('food24.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -739,7 +739,7 @@ p {
 }
 
 .imgcard-10 {
-    background-image: url('..//css/cocacola.png');
+    background-image: url('food25.png');
     background-position: right;
     background-size: cover;
     margin-bottom: 5px;
@@ -764,7 +764,7 @@ p {
 }
 
 .imgcard-11 {
-    background-image: url('..//css/frappe.png');
+    background-image: url('food26.png');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -790,7 +790,7 @@ p {
 }
 
 .imgcard-12 {
-    background-image: url('..//css/milk\ shake.jpg');
+    background-image: url('food27.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -818,7 +818,7 @@ p {
 
 
 .imgcard-13 {
-    background-image: url('..//css/veg\ burger.jpg');
+    background-image: url('food28.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -844,7 +844,7 @@ p {
 }
 
 .imgcard-14 {
-    background-image: url('..//css/cheese\ bur.jpg');
+    background-image: url('food29.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -869,7 +869,7 @@ p {
 }
 
 .imgcard-15 {
-    background-image: url('..//css/burger\ hallumi.png');
+    background-image: url('food30.png');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -895,7 +895,7 @@ p {
 }
 
 .imgcard-16 {
-    background-image: url('..//css/meat\ burger.png');
+    background-image: url('food31.png');
     background-position: center;
     background-size: cover;
     margin-bottom: 5px;
@@ -920,7 +920,7 @@ p {
 
 .heading {
     width: 100%;
-    background-image: url('..//css/drinks.jpg');
+    background-image: url('food32.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -961,7 +961,7 @@ p {
     flex-direction: column;
     padding: 20px;
     gap: 10px;
-    background-image: url('..//css/special\ off\ bg.jpg');
+    background-image: url('food34.jpg');
     background-attachment: fixed;
     opacity: 0.7;
     background-position:bottom;
@@ -1078,7 +1078,7 @@ label{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-image: url('..//css/special\ off\ bg.jpg');
+    background-image: url('food34.jpg');
     background-position: center;
     background-repeat: no-repeat;
       
@@ -1147,7 +1147,7 @@ display: inline;
 }
 .address{
     width: 84.3em;
-    background-image: url('../css/route.jpg');
+    background-image: url('food36.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
