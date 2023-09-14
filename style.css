@@ -1,0 +1,1278 @@
+/* universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+
+}
+
+*::selection {
+    color: gold;
+    background-color: rgba(219, 211, 211, 0.322);
+}
+
+/* home */
+.head {
+    height: 100vh;
+    background-color: black;
+    width: 100%;
+    background-image: url('..//css/home\ bg.png' );
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+}
+
+nav ul li a {
+    list-style-type: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+
+}
+
+.logo img {
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 20px;
+    padding-top: 8px;
+    width: 68px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 3px 5px 3px 5px goldenrod;
+}
+
+.logo img:hover {
+    box-shadow: 2px 3px 5px 2px goldenrod, 3px 5px 3px 5px white;
+    transition: all 0.2s ease-in-out;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 60px;
+    justify-content: center;
+    letter-spacing: 5px;
+}
+
+.btn {
+    background-color: white;
+    color: goldenrod;
+    border: none;
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    background-color: goldenrod;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 140px;
+
+}
+
+.logo::first-letter {
+    color: goldenrod;
+    font-size: larger;
+}
+
+h2:hover {
+    color: goldenrod;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+nav ul li a:hover {
+    box-shadow: 3px 2.8px 3px 2.8px goldenrod;
+    transition: 0.5s ease-in-out;
+    font-weight: lighter;
+    font-family: cursive;
+    
+
+}
+
+.content h4 {
+    font-weight: 500;
+    font-size: 60px;
+    color: goldenrod;
+    text-transform: capitalize;
+    font-family: 'algerian';
+}
+
+
+/* about */
+
+.about h4 {
+    font-weight: 700;
+    font-size: 85px;
+    color: black;
+    text-transform: capitalize;
+    background-image: url('..//css/about\ bg.jpg');
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: 5px underline goldenrod;
+}
+
+.main {
+    background-color: black;
+    height: 100vh;
+}
+
+.main .words p {
+    color: goldenrod;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.main .words p::first-line {
+    color: white;
+}
+
+.aboutus {
+    text-align: center;
+}
+
+.aboutus img {
+    width: 760px;
+
+    margin-top: 15px;
+    border: 2px solid goldenrod;
+
+}
+
+.aboutus img:hover {
+    transition: 0.6s;
+    border-color: white;
+    background-color: antiquewhite;
+    transition-property: all;
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+
+/* menu */
+
+.menuhead {
+    background-image: url('..//css/menu\ bg.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: white;
+    font-family: 'Cambria';
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.menus {
+    background-color: black;
+
+    display: flex;
+
+}
+
+.menus .menucard {
+    background-color: rgba(224, 213, 213, 0.144);
+    border-radius: 20px;
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.menus .menucard:hover {
+    color: goldenrod;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(102, 101, 101, 0.582);
+
+}
+
+.menuimg1 {
+    margin-bottom: 10px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url('..//css/burger.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    font-size: 30px;
+}
+
+.menuimg2 {
+    margin-bottom: 10px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url('..//css/bdayy\ cake.jpg');
+    background-position: center;
+    text-align: right;
+    font-size: 30px;
+    background-size: cover;
+}
+
+.menuimg3 {
+
+    margin-bottom: 10px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url('..//css/pizza.png');
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    font-size: 30px;
+}
+
+.menuimg4 {
+    margin-bottom: 10px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url('..//css/drinks.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    font-size: 30px;
+}
+
+.menunme1 {
+    color: goldenrod;
+    font-family: 'algerian';
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.menunme2 {
+    color: goldenrod;
+    font-family: 'algerian';
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.menunme3 {
+    color: goldenrod;
+    font-family: 'algerian';
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.menunme4 {
+    color: goldenrod;
+    font-family: 'algerian';
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.mbtn {
+    color: goldenrod;
+    border-radius: 16px;
+    background-color: black;
+    padding: 5px 60px;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+
+}
+
+.mbtn:hover {
+    box-shadow: 2px 1px 2px 1px rgb(255, 244, 141);
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+span {
+    color: goldenrod;
+    text-align: center;
+    display: inline;
+    margin-left: 70px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'opensans';
+    padding: 20px 60px;
+}
+
+p {
+    color: rgb(235, 232, 192);
+    text-align: justify;
+    padding: 5px;
+}
+
+
+/*special offer  */
+.specialoff {
+    background-image: url('..//css/special\ off\ bg.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: white;
+    font-family: 'mv boli';
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.offer {
+
+    height: 500px;
+    background-image: url('..//css/light.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+
+    background-image: url('..//css/special\ offer\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px 50px;
+}
+
+.card2 {
+
+    background-image: url('..//css/special\ offer\ 2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px 50px;
+}
+
+.text1 {
+    font-family: 'mv boli';
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.text2 {
+    font-family: 'mv boli';
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.text2 i {
+    color: goldenrod;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+/* gallery */
+
+.gal {
+    font-family: cursive;
+    background-image: url('..//css/tomato.jpg');
+    background-position: bottom;
+    background-size: cover;
+    color: goldenrod;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 70px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.gal b {
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration: 5px solid black underline;
+    font-size: 100px;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: capitalize
+}
+
+.gallery {
+    width: 100%;
+    height: auto;
+    background-color: rgb(2, 2, 2);
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexcard {
+    box-shadow: 3px 3px 5px 0px goldenrod;
+    width: 300px;
+    height: 270px;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 19px;
+    margin-right: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imgcard-1 {
+    background-image: url('..//css/choco\ chip.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 8px;
+    height: 250px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+    color: transparent;
+}
+
+.imgcard-1:hover {
+    transform: scale(1.13);
+    transition: 0.5s;
+    color: black;
+    text-transform: capitalize;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.imgcard-2 {
+    background-image: url('..//css/brownies.jpg');
+    background-position: right;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    border-radius: 18px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+.imgcard-2:hover {
+    transform: scale(1.13);
+    transition: 0.6s;
+    color: white;
+    text-transform: capitalize;
+    font-weight: small;
+    font-family: cursive;
+    cursor: pointer;
+
+
+}
+
+.imgcard-3 {
+    background-image: url('..//css/mini\ cakes.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    border-radius: 18px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+.imgcard-3:hover {
+    transform: scale(1.13);
+    transition: 0.6s;
+    color: black;
+    text-transform: capitalize;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.imgcard-4 {
+    background-image: url('..//css/chocolate\ cake.jpg');
+    background-position: right;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    border-radius: 18px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+}
+
+.imgcard-4:hover {
+    transform: scale(1.13);
+    transition: all 0.2s linear 0.1s;
+    transition: 0.6s;
+    color: white;
+    text-transform: capitalize;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+
+.imgcard-5 {
+    background-image: url('..//css/tomato.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    border-radius: 18px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+}
+
+.imgcard-5:hover {
+    transform: scale(1.13);
+
+    transition: 0.6s;
+    color: black;
+    text-transform: capitalize;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.imgcard-6 {
+    background-image: url('..//css/chicago.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    color: transparent;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+}
+
+.imgcard-6:hover {
+    transform: scale(1.13);
+    transition: 0.6s;
+    color: black;
+    text-transform: capitalize;
+    font-weight: small;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.imgcard-7 {
+    background-image: url('..//css/olives.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    color: transparent;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+}
+
+.imgcard-7:hover {
+    transform: scale(1.13);
+    transition: 0.6s;
+    color: black;
+    text-transform: capitalize;
+    font-weight: small;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+
+.imgcard-8 {
+    background-image: url('..//css/special\ off\ bg.jpg');
+    background-position: right;
+    background-size: cover;
+    color: transparent;
+    margin-bottom: 5px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 18px;
+}
+
+.imgcard-8:hover {
+    transform: scale(1.13);
+    transition: 0.6s;
+    color: white;
+    text-transform: capitalize;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+
+.imgcard-9 {
+    background-image: url('..//css/rose\ sharbat.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    color: transparent;
+    height: 250px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: top;
+    font-size: 35px;
+}
+
+.imgcard-9:hover {
+    transform: scale(1.13);
+    color: black;
+    text-transform: capitalize;
+    font-family: cursive;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.imgcard-10 {
+    background-image: url('..//css/cocacola.png');
+    background-position: right;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    align-items: top;
+    font-size: 35px;
+    color: transparent;
+}
+
+.imgcard-10:hover {
+    transform: scale(1.13);
+    transition: 0.6s;
+    color: white;
+    text-transform: capitalize;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+
+.imgcard-11 {
+    background-image: url('..//css/frappe.png');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    color: transparent;
+    height: 250px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: top;
+    font-size: 35px;
+}
+
+.imgcard-11:hover {
+    transform: scale(1.13);
+
+    color: black;
+    text-transform: capitalize;
+    font-weight: small;
+    font-family: cursive;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.imgcard-12 {
+    background-image: url('..//css/milk\ shake.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    border-radius: 18px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: top;
+    font-size: 35px;
+}
+
+.imgcard-12:hover {
+    color: black;
+    text-transform: capitalize;
+    font-weight: small;
+    font-family: cursive;
+
+    transform: scale(1.13);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+
+
+.imgcard-13 {
+    background-image: url('..//css/veg\ burger.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    color: transparent;
+    height: 250px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+}
+
+.imgcard-13:hover {
+    transform: scale(1.13);
+    cursor: pointer;
+    color: white;
+    text-transform: capitalize;
+    font-weight: small;
+    font-family: cursive;
+
+    transition: 0.6s;
+}
+
+.imgcard-14 {
+    background-image: url('..//css/cheese\ bur.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    color: transparent;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+}
+
+.imgcard-14:hover {
+    transform: scale(1.13);
+    transition: 0.6s;
+    color: black;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: cursive;
+
+}
+
+.imgcard-15 {
+    background-image: url('..//css/burger\ hallumi.png');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    color: transparent;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+}
+
+.imgcard-15:hover {
+    transform: scale(1.13);
+
+    transition: 0.6s;
+    color: black;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: cursive;
+
+}
+
+.imgcard-16 {
+    background-image: url('..//css/meat\ burger.png');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+    height: 250px;
+    border-radius: 18px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    align-items: center;
+    font-size: 35px;
+}
+
+.imgcard-16:hover {
+    transform: scale(1.13);
+    transition: 0.6s;
+    color: black;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.heading {
+    width: 100%;
+    background-image: url('..//css/drinks.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: black;
+    font-size: larger;
+    font-size: 80px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.heading i {
+    color:black;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: 7px underline white;
+}
+
+.formfill {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    color: white;
+    padding: 10px;
+
+}
+.details{
+    width: 100%;
+    margin-left:50px;
+    width: 600px;
+    border-radius: 20px;
+   
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    background-image: url('..//css/special\ off\ bg.jpg');
+    background-attachment: fixed;
+    opacity: 0.7;
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+:focus{
+     border: 2px solid white; 
+
+}
+input{
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: goldenrod;
+    
+}
+input::placeholder{
+color: beige;
+padding: 10px;
+font-family: 'mv boli';
+font-size: 15px;
+
+}
+::placeholder{
+    color: black;
+    font-size: 17px;
+
+
+}
+.btnorder button{
+    background-color: goldenrod;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+font-size: medium;
+font-size: 20px;
+text-transform: uppercase;
+width: 400px;
+display: inline-block;
+text-align: center;
+font-family: 'mv boli';
+margin-left: 80px;
+}
+.btnorder button img{
+    margin-top: 10px;
+    color:white;
+}
+
+.btnorder button:hover{
+    box-shadow: 0px 3px 7px 0px white;
+    cursor: pointer;
+    transition: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transform: scale(1.14);
+    background-color:black;
+    color: white;
+    border: 1px solid black; 
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    outline: none;
+    font-family: 'mv boli';
+    color:goldenrod;
+    background-color:white;
+    font-size: medium;
+    border-radius: 10px;
+    border: 2px solid goldenrod;
+}
+.check{
+    text-align: left;
+    justify-content: flex-start;
+    line-height: 30px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+    font-family: 'mv boli';
+    text-transform: capitalize;
+}
+
+
+
+/* contact */
+
+
+.contact{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: cursive;
+    font-size: 70px;
+    color: white;
+    border-top: 1px solid goldenrod;
+    border-bottom:1px solid goldenrod ;   
+}
+.setimg .home{
+    width: 540px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: url('..//css/special\ off\ bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+      
+ box-shadow: 0px 0px 5px goldenrod,
+    0px  0px 8px white; 
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 390px;
+    border-radius: 20px;
+}
+.setimg .home:hover{
+    color:goldenrod;
+    user-select: none;
+    transition: 0.3s;
+    
+}
+ .setimg  img{
+display: flex;
+border: none;
+outline: none;
+text-decoration: none;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+ margin-left: 30px;
+flex-direction: row;
+flex-wrap: wrap;
+ padding: 16px;   
+} 
+.setimg  img:hover{
+    box-shadow:0px 0px 5px goldenrod ;
+    background-color: white;
+    cursor: pointer;
+} 
+
+
+
+.home{ 
+ /* border: none; */
+ outline: none;
+padding: 10px;
+ color:white;
+ font-family: cursive;
+ text-transform: capitalize;
+ font-weight: 500;
+ font-size: 15px;
+ letter-spacing: 2px;
+
+}
+
+.home img{
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 180px;
+padding: 2px;
+margin-left: 20px;
+display: inline;
+} 
+.contact h3{
+    color: goldenrod;
+    font-family: 'mv boli';
+    letter-spacing: 5px;
+}
+.address{
+    width: 84.3em;
+    background-image: url('../css/route.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: lighter;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ .imgs{ 
+    color: white;
+    font-size: medium;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    box-shadow: 0px 0px 5px goldenrod;
+    border-radius: 20px;
+    margin: 20px;
+    width: 84.3em;
+ 
+}
+.imgs img{
+     width: 50px;
+     gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    margin: 20px;
+    font-family: 'mv boli';
+}
+.service .btn{
+    width:500px;
+    background-color: transparent;
+    /* height: 100vh; */
+    padding: 10px;
+    display: inline-block;
+     margin: 20px; 
+    
+    /* margin-bottom: 20px; */
+}
+
+.service .btn a button{
+    width: 500px;
+     padding: 10px;
+    border-radius: 20px;
+    color: black;
+    outline: none;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+    font-family:cursive;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+}
+.service .btn a button:hover{
+    color: white;
+    background-color:black;
+    /* border: 1px solid white; */
+    box-shadow: 0 0 8px goldenrod, 0 0 5px white;
+    transition: all;
+    transition: 0.6s;
+    
+    
+}
+
+
+a  button img{
+    
+    background-color: goldenrod;
+    border: 2px solid black; 
+    border-radius: 8px;
+    margin-left: 4px;
+    margin-top: 8px;
+    
+}
+a  button img:hover{
+    background-color: white;
+    border: 2px solid goldenrod; 
+    transform: scale(1.12);
+    transition: 0.3s;
+}
+.copy{
+    background-color: black;
+    color: goldenrod;
+    width: 84.3em;
+    padding: 10px;
+    font-family:cursive;
+    font-size: medium;
+    margin: 10px;
+    border-radius: 30px;
+    /* border:2px solid goldenrod; */
+    box-shadow: 0px 0px 5px goldenrod;
+    user-select: none;
+}
+.copy a{
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-size: 20px;
+    color: goldenrod;
+    cursor: pointer;
+    text-decoration: none;
+    /* text-decoration: underline;
+    text-decoration: 1px underline goldenrod; */
+}
+.copy a:hover{
+    
+    color:white; 
+    font-size: 21px;
+    transition: 0.5s;
+}
