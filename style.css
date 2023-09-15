@@ -912,7 +912,7 @@ width:84.3em;
 }
 
 .heading {
-/*     width: 84.3em; */
+/* width: 84.3em; */
     background-image: url('food32.jpg');
     background-position: top;
     background-repeat: no-repeat;
@@ -942,7 +942,7 @@ width:84.3em;
 
 }
 .details{
-/*   width:84.3em ;    */
+/*  width:84.3em ;  */
     margin-left:50px;
     width: 600px;
     border-radius: 20px;
