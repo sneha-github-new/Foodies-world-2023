@@ -104,9 +104,6 @@ h3 {
 }
 
 .content {
-    color: white;
-    display: flex;
-    flex-direction: column;
     justify-content: left;
     align-items: left;
     text-align: left;
@@ -220,9 +217,7 @@ nav ul li a:hover {
 
 .menus {
     background-color: black;
-
     display: flex;
-
 }
 
 .menus .menucard {
@@ -468,7 +463,7 @@ width:84.3em;
     background-position: bottom;
     background-size: cover;
     color: goldenrod;
-    width: 84.3em;
+/*     width: 84.3em; */
     height: auto;
     padding: 20px;
     font-weight: 500;
@@ -489,7 +484,7 @@ width:84.3em;
 
 .gallery {
     width: 84.3em;
-    height: auto;
+    height: 100%;
     background-color: rgb(2, 2, 2);
     background-attachment: scroll;
     display: flex;
@@ -1053,10 +1048,8 @@ label{
 
 
 /* contact */
-
-
 .contact{
-    width: 84.3em;
+/*     width: 84.3em; */
     background-color: black;
     padding: 10px;
     text-transform: capitalize;
