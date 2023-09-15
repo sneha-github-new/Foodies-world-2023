@@ -1045,7 +1045,7 @@ label{
 
 /* contact */
 .contact{
-/*      width: 8;  width:100vw; */
+   width: 84.3em;
     background-color: black;
     padding: 10px;
     text-transform: capitalize;
@@ -1124,6 +1124,7 @@ margin-left: 20px;
 display: inline;
 } 
 .contact h3{
+    width:84.3em;
     color: goldenrod;
     font-family: 'mv boli';
     letter-spacing: 5px;
