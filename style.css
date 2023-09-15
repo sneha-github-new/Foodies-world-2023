@@ -910,7 +910,7 @@ width:84.3em;
 }
 
 .heading {
-    width: 84.3em; 
+/*     width: 84.3em;  */
     background-image: url('food32.jpg');
     background-position: top;
     background-repeat: no-repeat;
@@ -1044,7 +1044,7 @@ label{
 
 /* contact */
 .contact{
-/*     width: 8; */ width:100vw;
+/*      width: 8;  width:100vw; */
     background-color: black;
     padding: 10px;
     text-transform: capitalize;
