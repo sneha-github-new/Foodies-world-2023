@@ -169,7 +169,7 @@ nav ul li a:hover {
     letter-spacing: 2px;
     text-align: center;
     height: 100vh;
-
+margin-bottom:10px;
 }
 
 .main .words p::first-line {
@@ -198,7 +198,7 @@ nav ul li a:hover {
 
 .menuhead {
     background-image: url('food6.jpg');
- width:84.3em; 
+  width:100%;    /*width:84.3em;   */
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -219,7 +219,8 @@ nav ul li a:hover {
 .menus .menucard {
     background-color: rgba(224, 213, 213, 0.144);
     border-radius: 20px;
-  width: 84.3em;       
+/*   width: 84.3em;        */
+    width:500px;   /*  width:500px;  */
     height: 500px;
     margin: 20px;
     margin-bottom: 40px;
@@ -367,7 +368,7 @@ p {
 /*special offer  */
 .specialoff {
     background-image: url('food11.jpg');
-/*     width:84.3em; */
+/*     width:84.3em; */  width:100%
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -460,8 +461,8 @@ width:84.3em;
     background-position: bottom;
     background-size: cover;
     color: goldenrod;
-/*  width: 84.3em;  */
-    height: auto;
+/*  width: 84.3em;  */ width:100%;
+/*     height: auto; */
     padding: 20px;
     font-weight: 500;
     font-size: 70px;
@@ -909,7 +910,7 @@ width:84.3em;
 }
 
 .heading {
-/*     width: 84.3em; */
+/*     width: 84.3em; */  width:100%
     background-image: url('food32.jpg');
     background-position: top;
     background-repeat: no-repeat;
@@ -997,6 +998,7 @@ display: inline-block;
 text-align: center;
 font-family: 'mv boli';
 margin-left: 40px;
+    margin-bottom:10px;
 }
 .btnorder button img{
     margin-top: 10px;
@@ -1042,7 +1044,7 @@ label{
 
 /* contact */
 .contact{
-/*     width: 84.3em; */
+/*     width: 8; */ width:100%;
     background-color: black;
     padding: 10px;
     text-transform: capitalize;
