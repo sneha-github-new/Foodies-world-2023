@@ -150,7 +150,7 @@ nav ul li a:hover {
     color: black;
     text-transform: capitalize;
     background-image: url('food4.jpg');
-/*       width:84.3em; */
+  width:84.3em;        /*width */
     text-align: center;
     text-decoration: underline;
     text-decoration: 5px underline goldenrod;
@@ -199,7 +199,7 @@ nav ul li a:hover {
 
 .menuhead {
     background-image: url('food6.jpg');
-/*     width:84.3em;  */
+   width:84.3em;            /*width */
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -368,7 +368,7 @@ p {
 /*special offer  */
 .specialoff {
     background-image: url('food11.jpg');
-   /* width:84.3em;   width:100% */ 
+/* width:84.3em; */        width:100%; 
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -461,8 +461,8 @@ width:84.3em;
     background-position: bottom;
     background-size: cover;
     color: goldenrod;
-/* width: 84.3em; */
-    /*  width:100%;  */
+width: 84.3em;
+    
 /*     height: auto; */
     padding: 20px;
     font-weight: 500;
@@ -911,7 +911,7 @@ width:84.3em;
 }
 
 .heading {
-/*     width: 84.3em;  */
+     width: 84.3em;  
     background-image: url('food32.jpg');
     background-position: top;
     background-repeat: no-repeat;
