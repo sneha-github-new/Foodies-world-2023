@@ -322,7 +322,6 @@ nav ul li a:hover {
     text-transform: uppercase;
 
 }
-
 .mbtn {
     color: goldenrod;
     border-radius: 16px;
@@ -368,7 +367,7 @@ p {
 /*special offer  */
 .specialoff {
     background-image: url('food11.jpg');
-   width:84.3em;   /* width:100% */ 
+   /* width:84.3em;   width:100% */ 
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -461,7 +460,7 @@ width:84.3em;
     background-position: bottom;
     background-size: cover;
     color: goldenrod;
-width: 84.3em;
+/* width: 84.3em; */
     /*  width:100%;  */
 /*     height: auto; */
     padding: 20px;
