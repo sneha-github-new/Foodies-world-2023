@@ -17,7 +17,7 @@
 .head {
     height: 100vh;
     background-color: black;
-    width: 84.3em;
+/*     width: 84.3em; */
     background-image: url('food3.png');
     background-position: right;
     background-size: contain;
@@ -148,6 +148,7 @@ nav ul li a:hover {
     display:flex;
     justify-content:center;
     align-items:center;
+    width:84.3em;
     font-weight: 700;
     font-size: 85px;
     color: black;
@@ -201,7 +202,13 @@ nav ul li a:hover {
 
 .menuhead {
     background-image: url('food6.jpg');
-/*    width:84.3em;    */         /*width */
+    width:84.3em;    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+    /*width */
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -222,8 +229,11 @@ nav ul li a:hover {
 .menus .menucard {
     background-color: rgba(224, 213, 213, 0.144);
     border-radius: 20px;
-/*   width: 84.3em;        */
-    width:500px;  
+/*    width: 84.3em;   */
+/*     display:flex;
+    justify-content:center;
+    align-items:center; */
+   width:500px;  
     height: 500px;
     margin: 20px;
     margin-bottom: 40px;
@@ -370,7 +380,12 @@ p {
 /*special offer  */
 .specialoff {
     background-image: url('food11.jpg');
-/* width:84.3em; */        width:100vh; 
+width:84.3em;  
+    
+/*     width:100vh;  */
+       display:flex;
+    justify-content:center;
+    align-items:center; 
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -464,6 +479,10 @@ width:84.3em;
     background-size: cover;
     color: goldenrod;
 /* widt */
+       display:flex;
+    justify-content:center;
+    align-items:center; 
+    width:84.3em;
     
 /*     height: auto; */
     padding: 20px;
@@ -913,7 +932,10 @@ width:84.3em;
 }
 
 .heading {
-     width:100vw;  
+     width:84.3em;  
+       display:flex;
+    justify-content:center;
+    align-items:center; 
     background-image: url('food32.jpg');
     background-position: top;
     background-repeat: no-repeat;
@@ -1047,7 +1069,10 @@ label{
 
 /* contact */
 .contact{
-/*    width: 84.3em; */
+   width: 84.3em;
+       display:flex;
+    justify-content:center;
+    align-items:center; 
     background-color: black;
     padding: 10px;
     text-transform: capitalize;
