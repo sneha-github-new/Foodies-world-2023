@@ -198,7 +198,7 @@ nav ul li a:hover {
 
 .menuhead {
     background-image: url('food6.jpg');
-   width:84.3em;
+/*     width:84.3em;  */
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -220,7 +220,7 @@ nav ul li a:hover {
     background-color: rgba(224, 213, 213, 0.144);
     border-radius: 20px;
 /*   width: 84.3em;        */
-    width:500px;   /*  width:500px;  */
+    width:500px;  
     height: 500px;
     margin: 20px;
     margin-bottom: 40px;
