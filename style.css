@@ -17,7 +17,7 @@
 .head {
     height: 100vh;
     background-color: black;
-/*     width: 84.3em; */
+     width: 84.3em; 
     background-image: url('food3.png');
     background-position: right;
     background-size: contain;
@@ -148,7 +148,7 @@ nav ul li a:hover {
     display:flex;
     justify-content:center;
     align-items:center;
-    width:84.3em;
+/*     width:84.3em; */
     font-weight: 700;
     font-size: 85px;
     color: black;
@@ -202,7 +202,7 @@ nav ul li a:hover {
 
 .menuhead {
     background-image: url('food6.jpg');
-    width:84.3em;    
+/*     width:84.3em;     */
     display:flex;
     justify-content:center;
     align-items:center;
@@ -380,7 +380,7 @@ p {
 /*special offer  */
 .specialoff {
     background-image: url('food11.jpg');
-width:84.3em;  
+/* width:84.3em;   */
     
 /*     width:100vh;  */
        display:flex;
@@ -482,7 +482,7 @@ width:84.3em;
        display:flex;
     justify-content:center;
     align-items:center; 
-    width:84.3em;
+/*     width:84.3em; */
     
 /*     height: auto; */
     padding: 20px;
@@ -932,7 +932,7 @@ width:84.3em;
 }
 
 .heading {
-     width:84.3em;  
+/*      width:84.3em;   */
        display:flex;
     justify-content:center;
     align-items:center; 
@@ -1069,7 +1069,7 @@ label{
 
 /* contact */
 .contact{
-   width: 84.3em;
+/*    width: 84.3em; */
        display:flex;
     justify-content:center;
     align-items:center; 
