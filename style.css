@@ -912,7 +912,7 @@ width:84.3em;
 }
 
 .heading {
-    width: 84.3em;
+/*     width: 84.3em; */
     background-image: url('food32.jpg');
     background-position: top;
     background-repeat: no-repeat;
@@ -933,7 +933,7 @@ width:84.3em;
 }
 
 .formfill {
-    width: 84.3em;
+/*     width: 84.3em; */
     height: 100vh;
     background-color: black;
     display: flex;
@@ -942,7 +942,7 @@ width:84.3em;
 
 }
 .details{
-  width:84.3em ;    /*   width:100% ; */
+/*   width:84.3em ;    */
     margin-left:50px;
     width: 600px;
     border-radius: 20px;
@@ -1020,7 +1020,6 @@ margin-left: 80px;
 }
 
 textarea{
-    width: 84.3em; /*   width:100% ; */
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 50px;
