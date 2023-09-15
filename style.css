@@ -88,7 +88,7 @@ h3 {
     color: goldenrod;
     border: none;
     outline: none;
-    width: 300px;
+    width: 300px; 
     padding: 10px;
     border-radius: 2px;
     font-weight: 700;
@@ -102,7 +102,7 @@ h3 {
     transition: 0.2s;
     cursor: pointer;
 }
-
+ 
 .content {
     justify-content: left;
     align-items: left;
@@ -110,7 +110,7 @@ h3 {
     padding-left: 40px;
     padding-top: 140px;
 
-}
+} 
 
 .logo::first-letter {
     color: goldenrod;
@@ -164,12 +164,12 @@ nav ul li a:hover {
 .main .words p {
     color: goldenrod;
     font-size: 20px;
-    padding:10px;
     text-align: center;
     line-height: 30px;
     letter-spacing: 2px;
     text-align: center;
     height: 100vh;
+
 }
 
 .main .words p::first-line {
@@ -182,8 +182,10 @@ nav ul li a:hover {
 
 .aboutus img {
     width: 760px;
-    margin-top: 20px;
+
+    margin-top: 15px;
     border: 2px solid goldenrod;
+
 }
 
 .aboutus img:hover {
@@ -193,12 +195,14 @@ nav ul li a:hover {
     transition-property: all;
     transform: scale(1.05);
     cursor: pointer;
+
 }
+
+
 /* menu */
 
 .menuhead {
     background-image: url('food6.jpg');
-/*   width:100%;    width:84.3em;  */  
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -210,17 +214,18 @@ nav ul li a:hover {
     font-weight: 500;
     text-align: center;
 }
+
 .menus {
     background-color: black;
-    width:84.3em;
+
     display: flex;
+
 }
 
 .menus .menucard {
     background-color: rgba(224, 213, 213, 0.144);
     border-radius: 20px;
-/*   width: 84.3em;        */
-    width:500px;   /*  width:500px;  */
+    width: 100%;
     height: 500px;
     margin: 20px;
     margin-bottom: 40px;
@@ -368,7 +373,6 @@ p {
 /*special offer  */
 .specialoff {
     background-image: url('food11.jpg');
-   width:84.3em;   /* width:100% */ 
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -461,9 +465,7 @@ width:84.3em;
     background-position: bottom;
     background-size: cover;
     color: goldenrod;
-width: 84.3em;
-    /*  width:100%;  */
-/*     height: auto; */
+    height: auto;
     padding: 20px;
     font-weight: 500;
     font-size: 70px;
@@ -483,7 +485,7 @@ width: 84.3em;
 
 .gallery {
     width: 84.3em;
-    height: 100%;
+    height:100%;
     background-color: rgb(2, 2, 2);
     background-attachment: scroll;
     display: flex;
@@ -911,7 +913,7 @@ width: 84.3em;
 }
 
 .heading {
-    width: 84.3em; 
+    /* width: 84.3em; */
     background-image: url('food32.jpg');
     background-position: top;
     background-repeat: no-repeat;
@@ -932,7 +934,7 @@ width: 84.3em;
 }
 
 .formfill {
-width: 84.3em; 
+    /* width: 84.3em; */
     height: 100vh;
     background-color: black;
     display: flex;
@@ -941,16 +943,17 @@ width: 84.3em;
 
 }
 .details{
-/*  width:84.3em ;  */
-    margin-left:40px;
+  /* width:84.3em ;      width:100% ; */
+    margin-left:50px;
     width: 600px;
     border-radius: 20px;
-    display: flex;
+   
+     display: flex; 
     justify-content:left;
     align-items: left;
     text-align: left;
     flex-direction: column;
-    padding: 15px;
+    padding: 20px;
     gap: 10px;
     background-image: url('food34.jpg');
     background-attachment: fixed;
@@ -998,8 +1001,7 @@ width: 400px;
 display: inline-block;
 text-align: center;
 font-family: 'mv boli';
-margin-left: 40px;
-/*     margin-bottom:10px; */
+margin-left: 80px;
 }
 .btnorder button img{
     margin-top: 10px;
@@ -1019,6 +1021,7 @@ margin-left: 40px;
 }
 
 textarea{
+    /* width: 84.3em;   width:100% ; */
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 50px;
@@ -1043,9 +1046,13 @@ label{
     text-transform: capitalize;
 }
 
+
+
 /* contact */
+
+
 .contact{
-/*     width: 8; */ width:84.3em;
+    /* width: 84.3em;  */
     background-color: black;
     padding: 10px;
     text-transform: capitalize;
@@ -1102,6 +1109,9 @@ flex-wrap: wrap;
     background-color: white;
     cursor: pointer;
 } 
+
+
+
 .home{ 
  /* border: none; */
  outline: none;
@@ -1112,6 +1122,7 @@ padding: 10px;
  font-weight: 500;
  font-size: 15px;
  letter-spacing: 2px;
+
 }
 
 .home img{
@@ -1259,3 +1270,20 @@ a  button img:hover{
     font-size: 21px;
     transition: 0.5s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
