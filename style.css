@@ -146,7 +146,7 @@ nav ul li a:hover {
 
 .about h4 {
     display:flex;
-  justify-content:center;
+    justify-content:center;
     align-items:center;
     font-weight: 700;
     font-size: 85px;
@@ -201,7 +201,8 @@ nav ul li a:hover {
 
 .menuhead {
      background-image: url('food6.jpg');
-/*     width:84.3em;     */
+    width:84.3em; 
+    height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -374,8 +375,8 @@ p {
 /*special offer  */
 .specialoff {
     background-image: url('food11.jpg');
-/* width:84.3em;   */
-    
+    width:84.3em;
+    height:100vh;
     display:flex;
     justify-content:left;
     align-items:left; 
