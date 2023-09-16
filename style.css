@@ -200,7 +200,7 @@ nav ul li a:hover {
 /* menu */
 
 .menuhead {
-     background-image: url('food6.jpg');
+     background-image: url('screenshot(29).png');
     display:flex;
     justify-content:center;
     align-items:center;
@@ -372,7 +372,7 @@ p {
 
 /*special offer  */
 .specialoff {
-    background-image: url('food11.jpg');
+    background-image: url('Screenshot(31).png');
 /*     height:100vh; */
     display:flex;
     justify-content:left;
