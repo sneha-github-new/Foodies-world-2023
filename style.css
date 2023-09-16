@@ -201,8 +201,6 @@ nav ul li a:hover {
 
 .menuhead {
      background-image: url('food6.jpg');
-/*     width:;  */
-/*height:100vh;*/
     display:flex;
     justify-content:center;
     align-items:center;
@@ -375,11 +373,10 @@ p {
 /*special offer  */
 .specialoff {
     background-image: url('food11.jpg');
-    width:800px;
 /*     height:100vh; */
     display:flex;
     justify-content:left;
-    align-items:left; 
+    align-items:center; 
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -467,7 +464,8 @@ p {
 /* gallery */
 
 .gal {
-    font-family: cursive; background-image: url('food15.jpg'); 
+    font-family: cursive;
+    background-image: url('food15.jpg'); 
 /*     background-image: url('food4.jpg') */
     background-position: bottom;
     background-size: cover;
@@ -485,6 +483,8 @@ p {
 }
 
 .gal b {
+    display:flex;
+    width:84.3em;
     font-weight: 500;
     text-decoration: underline;
     text-decoration: 5px solid black underline;
@@ -929,7 +929,7 @@ p {
     justify-content:center;
     align-items:center; 
     background-image: url('food32.jpg');
-      width:84.3em;
+/*       width:84.3em; */
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -942,6 +942,8 @@ p {
 }
 
 .heading i {
+    display:flex;
+    width:84.3em;
     color:black;
     text-transform: capitalize;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -1060,9 +1062,6 @@ label{
 
 /* contact */
 .contact{
- width:84.3em;
-/*     width:100%; */
-    
      display:flex;
     justify-content:center;
     align-items:center; 
@@ -1144,6 +1143,8 @@ display: inline;
 } 
 .contact h3{
     width:84.3em;
+    display:flex;
+    flex-wrap:wrap;
     color: goldenrod;
     font-family: 'mv boli';
     letter-spacing: 5px;
