@@ -201,8 +201,8 @@ nav ul li a:hover {
 
 .menuhead {
      background-image: url('food6.jpg');
-    width:84.3em; 
-    height:100vh;
+/*     width:;  */
+/*height:100vh;*/
     display:flex;
     justify-content:center;
     align-items:center;
@@ -375,8 +375,8 @@ p {
 /*special offer  */
 .specialoff {
     background-image: url('food11.jpg');
-    width:84.3em;
-    height:100vh;
+    width:800px;
+/*     height:100vh; */
     display:flex;
     justify-content:left;
     align-items:left; 
