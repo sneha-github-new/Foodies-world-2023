@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins';
-
 }
 
 *::selection {
@@ -17,7 +16,7 @@
 .head {
     height: 100vh;
     background-color: black;
-     width:84.3em; 
+    width:84.3em; 
     background-image: url('food3.png');
     background-position: right;
     background-size: contain;
@@ -54,7 +53,6 @@ nav ul li a {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
-
 }
 
 .logo img {
@@ -109,7 +107,6 @@ h3 {
     text-align: left;
     padding-left: 40px;
     padding-top: 140px;
-
 }
 
 .logo::first-letter {
@@ -129,8 +126,6 @@ nav ul li a:hover {
     transition: 0.5s ease-in-out;
     font-weight: lighter;
     font-family: cursive;
-    
-
 }
 
 .content h4 {
@@ -140,7 +135,6 @@ nav ul li a:hover {
     text-transform: capitalize;
     font-family: 'algerian';
 }
-
 
 /* about */
 
@@ -200,11 +194,11 @@ nav ul li a:hover {
 /* menu */
 
 .menuhead {
-     background-image: url('order.jpg');
+     background-image: url('wall bg.jpg');
     display:flex;
     justify-content:center;
     align-items:center;
-    width:100%;
+/*     width:100%; */
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -372,8 +366,8 @@ p {
 
 /*special offer  */
 .specialoff {
-    background-image: url('Screenshot (31).png');
-/*     height:100vh; */ width:84.3em;
+    background-image: url('black bg.jpg');
+ /* height:100vh; */   /*width:84.3em; */
     display:flex;
     justify-content:left;
     align-items:center; 
@@ -465,18 +459,15 @@ p {
 
 .gal {
     font-family: cursive;
-    background-image: url('Screenshot (29).png'); 
-    width:84.3em;
-    
-/*     background-image: url('food4.jpg') */
+    background-image: url('offer.jpg'); 
+/*     width:84.3em;  */
+/* background-image: url('food4.jpg') */
     background-position:center;
     background-size: cover;
     color: goldenrod;
     display:flex;
     justify-content:center;
     align-items:center; 
-    
-/*  height: auto; */
     padding: 20px;
     font-weight: 500;
     font-size: 70px;
@@ -486,7 +477,6 @@ p {
 
 .gal b {
     display:flex;
-    width:84.3em;
     font-weight: 500;
     text-decoration: underline;
     text-decoration: 5px solid black underline;
@@ -617,7 +607,6 @@ p {
     text-transform: capitalize;
     font-family: cursive;
     cursor: pointer;
-
 }
 
 .imgcard-5 {
@@ -930,8 +919,7 @@ p {
        display:flex;
     justify-content:center;
     align-items:center; 
-    background-image: url('food32.jpg');
-/*       width:84.3em; */
+    background-image: url('veg bg.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -945,7 +933,7 @@ p {
 
 .heading i {
     display:flex;
-    width:84.3em;
+/*     width:84.3em; */
     color:black;
     text-transform: capitalize;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -962,7 +950,6 @@ p {
 
 }
 .details{
-
     margin-left:40px;
     width: 600px;
     border-radius: 20px;
@@ -1065,6 +1052,7 @@ label{
 /* contact */
 .contact{
      display:flex;
+    width:84.3em;
     justify-content:center;
     align-items:center; 
     background-color: black;
