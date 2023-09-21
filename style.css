@@ -198,6 +198,10 @@ nav ul li a:hover {
     justify-content:center;
     align-items:center;
     flex-direction:row;
+    background-image: url('wall bg.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .menuhead {
 /*     width:84.3em; */
@@ -206,10 +210,6 @@ nav ul li a:hover {
     align-items:center;
     flex-direction:row;
   /*width:100%; */
-     background-image: url('wall bg.jpg');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
     padding: 10px;
     color: white;
     font-family: 'Cambria';
@@ -465,14 +465,19 @@ p {
 }
 
 /* gallery */
+.mygal{
+       width:84.3em;  
+  font-family: cursive;
+    background-image: url('offer.jpg'); 
+/*     background-image: url('food4.jpg'); */
+    background-position:center;
+    background-size: cover;
 
+}
 .gal {
     font-family: cursive;
     background-image: url('offer.jpg'); 
-/*     width:84.3em;  */
-/* background-image: url('food4.jpg') */
-    background-position:center;
-    background-size: cover;
+width:84.3em; 
     color: goldenrod;
     display:flex;
     justify-content:center;
@@ -923,8 +928,18 @@ p {
     font-family: cursive;
 }
 
+.order{
+width:84.3em;  
+       display:flex;
+    justify-content:center;
+    align-items:center; 
+    background-image: url('veg bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
 .heading {
-/*      width:84.3em;   */
+/*   width:84.3em;  
        display:flex;
     justify-content:center;
     align-items:center; 
@@ -932,7 +947,7 @@ p {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
+    padding: 10px; */
     color: black;
     font-size: larger;
     font-size: 80px;
@@ -1059,9 +1074,16 @@ label{
 }
 
 /* contact */
+.ctt{
+ display:flex;
+    width:84.3em;
+    justify-content:center;
+    align-items:center; 
+    background-color: black;
+}
 .contact{
      display:flex;
-    width:84.3em;
+/*     width:84.3em; */
     justify-content:center;
     align-items:center; 
     background-color: black;
