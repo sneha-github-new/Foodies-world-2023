@@ -192,9 +192,15 @@ nav ul li a:hover {
     cursor: pointer;
 }
 /* menu */
-
+.mainmenu{
+   width:84.3em; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+}
 .menuhead {
-    width:84.3em;
+/*     width:84.3em; */
     display:flex;
     justify-content:center;
     align-items:center;
