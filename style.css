@@ -374,9 +374,18 @@ p {
 
 
 /*special offer  */
-.specialoff{
+.soff{
     background-image: url('black bg.jpg');
- /* height:100vh; */   /*width:84.3em; */
+    width:84.3em;
+     display:flex;
+    justify-content:center;
+    align-items:center; 
+    background-position:top;
+    background-size: cover;
+}
+.specialoff{
+/*     background-image: url('black bg.jpg'); */
+ /* height:100vh; */  
     display:flex;
     justify-content:center;
     align-items:center; 
@@ -466,18 +475,18 @@ p {
 
 /* gallery */
 .mygal{
-       width:84.3em;  
-  font-family: cursive;
-    background-image: url('offer.jpg'); 
-/*     background-image: url('food4.jpg'); */
+    width:84.3em;  
+    font-family: cursive;
+/*     background-image: url('offer.jpg');  */
+    background-image: url('food4.jpg'); 
     background-position:center;
     background-size: cover;
-
+    background-repeat:no-repeat;
 }
 .gal {
     font-family: cursive;
-    background-image: url('offer.jpg'); 
-width:84.3em; 
+/*     background-image: url('offer.jpg');  */
+/* width:84.3em;  */
     color: goldenrod;
     display:flex;
     justify-content:center;
@@ -934,7 +943,7 @@ width:84.3em;
     justify-content:center;
     align-items:center; 
     background-image: url('veg bg.jpg');
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;    
 }
@@ -1080,6 +1089,7 @@ label{
     justify-content:center;
     align-items:center; 
     background-color: black;
+       color: white;
 }
 .contact{
      display:flex;
@@ -1163,7 +1173,7 @@ margin-left: 20px;
 display: inline;
 } 
 .contact h3{
-    width:84.3em;
+/*     width:84.3em; */
     display:flex;
     flex-wrap:wrap;
     color: goldenrod;
