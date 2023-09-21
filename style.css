@@ -163,10 +163,11 @@ nav ul li a:hover {
     font-size: 20px;
     padding:10px;
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: 2px;
     text-align: center;
-    margin-bottom:20px;
+    margin:5px;
+/*     margin-bottom:20px; */
 /*     height: 100vh; */
 }
 
@@ -480,7 +481,7 @@ p {
     font-family: cursive;
 /*     background-image: url('offer.jpg');  */
     background-image: url('food4.jpg'); 
-    background-position:center;
+    background-position:bottom;
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -1000,6 +1001,7 @@ p {
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
+   margin-bottom:20px;  /*   marhgin */
 }
 :focus{
      border: 2px solid white;
@@ -1038,7 +1040,8 @@ display: inline-block;
 text-align: center;
 font-family: 'mv boli';
 margin-left: 40px;
-  margin-bottom:20px; 
+    
+/*   margin-bottom:20px;  */
 }
 .btnorder button img{
     margin-top: 10px;
@@ -1086,8 +1089,8 @@ label{
 .ctt{
  display:flex;
     width:84.3em;
-    justify-content:center;
-    align-items:center; 
+    justify-content:left;
+    align-items:left; 
     background-color: black;
        color: white;
      border-top: 1px solid goldenrod;
@@ -1176,6 +1179,7 @@ display: inline;
 .contact h3{
 /*     width:84.3em; */
     display:flex;
+    padding:10px;
     align-items:center;
     text-align:center;
     flex-wrap:wrap;
