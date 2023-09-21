@@ -166,6 +166,7 @@ nav ul li a:hover {
     line-height: 30px;
     letter-spacing: 2px;
     text-align: center;
+    margin-bottom:20px;
 /*     height: 100vh; */
 }
 
@@ -938,12 +939,12 @@ p {
 }
 
 .order{
-width:84.3em;  
+     width:84.3em;  
        display:flex;
     justify-content:center;
     align-items:center; 
-    background-image: url('veg bg.jpg');
-    background-position: bottom;
+    background-image: url('food10.jpg');
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;    
 }
@@ -1001,8 +1002,7 @@ width:84.3em;
     background-repeat: no-repeat;
 }
 :focus{
-     border: 2px solid white; 
-
+     border: 2px solid white;
 }
 input{
     padding: 5px;
@@ -1038,7 +1038,7 @@ display: inline-block;
 text-align: center;
 font-family: 'mv boli';
 margin-left: 40px;
-  margin-bottom:10px; 
+  margin-bottom:20px; 
 }
 .btnorder button img{
     margin-top: 10px;
@@ -1090,6 +1090,8 @@ label{
     align-items:center; 
     background-color: black;
        color: white;
+     border-top: 1px solid goldenrod;
+    border-bottom:1px solid goldenrod ;   
 }
 .contact{
      display:flex;
@@ -1104,8 +1106,7 @@ label{
     font-family: cursive;
     font-size: 70px;
     color: white;
-    border-top: 1px solid goldenrod;
-    border-bottom:1px solid goldenrod ;   
+   
 }
 .setimg .home{
     width: 540px;
@@ -1175,6 +1176,8 @@ display: inline;
 .contact h3{
 /*     width:84.3em; */
     display:flex;
+    align-items:center;
+    text-align:center;
     flex-wrap:wrap;
     color: goldenrod;
     font-family: 'mv boli';
